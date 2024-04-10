@@ -1,7 +1,12 @@
 namespace MadLibs.Models
 {
-  public class MadLib
-  {
-    // Business Logic goes here.
-  }
+	public class MadLib
+	{
+		public string[] Words { get; set; }
+		
+		public MadLib(string[] words)
+		{
+			Words = words;
+		}
+	}
 }

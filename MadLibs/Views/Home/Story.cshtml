@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-bs-theme="dark">
   <head>
     <title>Mab Libs Story</title>
     <link 
@@ -10,13 +10,16 @@
     <meta charset='utf-8'>
   </head>
   <body>
-    <div class="mx-auto col-11">
-      <h1 class="my-3">The World of @Model.Words[1]</h1>
+    <h1 class="text-center mt-4">The world of @Model.Words[1]</h1>
+    <div class="text-center">
       <p>Once upon a time, there was a world of @Model.Words[1].</p>
-      <p>It was a very @Model.Words[0] world, but not very varied.</p>
-      <p>The only interesting thing to do there is @Model.Words[2].</p>
+      <p>It was a very @Model.Words[0] world, but not so varied.</p>
+      <p>The only interesting thing to do was @Model.Words[2].</p>
       <p>Why is that? Nobody knows. It's quite the @Model.Words[0] mystery.</p>
-      <p>Just the kind of thing to expect from the word of @Model.Words[1].</p>
+      <p>Just the kind of thing you'd expect from the word of @Model.Words[1].</p>
+      <a href="/" class="text-decoration-none">
+      <button type="button" class="btn btn-outline-primary d-block mx-auto px-4" href="/">Reset</button>
+      </a>
     </div>
   </body>
 </html>

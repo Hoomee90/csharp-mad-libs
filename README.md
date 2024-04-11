@@ -1,26 +1,30 @@
-# Title
+# Mad Libs
 
 #### By **Samantha Callie**
 
-#### Subtitle
+#### Play the saddest game of Mad Libs in your life
 
 ## Technologies Used
 
+* HTML
+* BootStrap
 * C#
 * .NET
+* ASP.NET Core
+* Razor
 
 ## Description
 
-Description
+This application is a web app made through ASP.NET Core, which allows users to enter three words of the appropriate types of speech, and see a small story using those words. It's Mad Libs, you know how it works.
 
 ## Setup/Installation Requirements
 
 1. Press the green <> Code button and select Download ZIP
 2. Unzip file
 3. Clone this repo.
-4. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "ProjectName".
-5. In the command line, run the command "dotnet run" to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal.
-6. Optionally, you can run "dotnet build" to compile this console app without running it.
+4. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "MadLibs".
+5. In the command line, run the command `dotnet run` to compile and execute the application. Navigate to https://localhost:5001.
+6. Optionally, you can run `dotnet run --launch-profile "production"` to run in the run in production mode, as oppose to development.
 
 ## Known Bugs
 
